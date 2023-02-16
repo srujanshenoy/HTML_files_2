@@ -2,6 +2,7 @@
 
 * {
   font-family: "Montserrat", sans-serif;
+  font-size: 30px;
 }
 
 cssheading {
@@ -110,4 +111,49 @@ td {
   padding: 0;
   background-color: #24252A;
   text-align: center;
+}
+
+/* navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a,
+a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover,
+a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  background-color: #24252A;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+
 }
