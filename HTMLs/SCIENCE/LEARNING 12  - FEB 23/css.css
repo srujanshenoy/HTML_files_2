@@ -23,6 +23,19 @@ normtext {
   color: palevioletred;
 }
 
+normtitle {
+  font-size: 30px;
+  color: rgb(28, 255, 168);
+}
+
+normsubtitle {
+  color: rgba(0, 191, 255, 0.849)
+}
+
+li {
+  color: #9132eb
+}
+
 table,
 th,
 td {
