@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  bg-color: "#1e1f22";
+}
+
+cssheading {
+  color: rgb(48, 48, 236);
+  font-size: 35px;
+}
+
+bcssheading {
+  font-size: 30px;
+}
+
+normheader {
+  font-size: 30px;
+  color: yellowgreen;
+}
+
+normtext {
+  font-size: 30px;
+  color: palevioletred;
+}
+
+normtitle {
+  font-size: 30px;
+  color: rgb(28, 255, 168);
+}
+
+normsubtitle {
+  color: rgba(0, 191, 255, 0.849)
+}
+
+li {
+  color: #9132eb
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+  margin: 15px
+}
+
+select {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 66px;
+}
+
+testxt {
+  font-size: 25px;
+}
+
+a,
+button {
+  text-decoration: none;
+  color: rgb(48, 48, 236);
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, .30);
+  font-size: 30px;
+}
+
+select option {
+  margin: 0px;
+  color: #fff;
+}
+
+table {
+  width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, .30);
+  background-color: aliceblue;
+  margin: 25px auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+th,
+td {
+  padding: 20px;
+  width: 600px;
+  font-size: 29px;
+  height: 70px;
+}
+
+table th {
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin: 50px;
+}
+
+
+td {
+  color: burlywood
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252A;
+  text-align: center;
+}
+
+/* navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a,
+a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover,
+a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  background-color: #24252A;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+
+}
